@@ -1,0 +1,2 @@
+C:\Users\Vincent Ho\Documents\GitHub\QbertFun\QBert (for fun)\QbertFun\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\Vincent Ho\Documents\GitHub\QbertFun\QBert (for fun)\QbertFun\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

@@ -9,12 +9,19 @@ public class Level : MonoBehaviour
 
     public Block block;
     public Transform prefab;
+    public GameObject parentObject;
 
+    //public List<Block> blocks = new List<Block>();
+
+    private int blockCount = 0;
 
     // Start is called before the first frame update
     void Start()
     {
         levelLayout();
+        //blocks.Clear();
+        //print(blocks.Count);
+
     }
 
     // Update is called once per frame
@@ -36,7 +43,7 @@ public class Level : MonoBehaviour
             {
                 //Instantiate();
                 Instantiate(block, new Vector2(tempX + (-0.48f * j), tempY - (0.721f * j)), block.transform.rotation);
-
+                
             }
             tempX += 0.48f;
             tempY -= 0.721f;
